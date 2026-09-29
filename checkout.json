@@ -1,0 +1,200 @@
+{
+    "isProMember": false,
+    "savings_delight_widget": {
+        "savingsIconMedia": {
+            "url": "https://cdn.magicpin.com/assets/lottie/savings_lottie.json",
+            "type": "lottie",
+            "repeatCount": 4,
+            "autoPlay": true
+        },
+        "suffixText": {
+            "lineHeight": 0,
+            "value": "on this purchase!",
+            "size": 0
+        },
+        "savings": 10,
+        "style": {
+            "background": {
+                "bgColors": ["purple_light"],
+                "cornersRadii": [12],
+                "strokeWidth": 0.5,
+                "strokeColor": "tags_tonal_palette_purple"
+            },
+            "margin": {
+                "top": 8,
+                "end": 16,
+                "start": 16,
+                "bottom": 0
+            }
+        },
+        "text": {
+            "lineHeight": 20,
+            "value": "₹{savings}",
+            "fontType": "font_semi_bold",
+            "size": 14
+        },
+        "type": "savings-delight-widget",
+        "confettiLottie": {
+            "url": "https://cdn.magicpin.com/assets/lottie/savings_delight_lottie.json",
+            "repeatCount": 1,
+            "autoPlay": true
+        },
+        "prefixText": {
+            "lineHeight": 0,
+            "value": "Saving",
+            "size": 0
+        }
+    },
+    "magicCash": {
+        "available": true,
+        "amount": 0,
+        "balance": 2,
+        "eligible": true,
+        "usableAmount": 2
+    },
+    "maxSavings": 10,
+    "voucherWorthPrice": 500,
+    "payCtaAmount": 491,
+    "message": null,
+    "voucherMagicpinAmount": 10,
+    "subTotalAmount": null,
+    "enablePay": true,
+    "paymentDetailsWidget": {
+        "txnData": [
+            {
+                "style": {
+                    "background": {
+                        "corners_radii": [20],
+                        "bg_colors": ["#FFFFFF"]
+                    },
+                    "margin": {
+                        "top": 8,
+                        "bottom": 8,
+                        "start": 0,
+                        "end": 0
+                    }
+                },
+                "details": [
+                    {
+                        "type": "row-data",
+                        "detail": {"value": "₹0", "color": "#333333", "font_type": "font_semi_bold"},
+                        "label": {"value": "Bill amount", "color": "#333333", "font_type": "font_medium"}
+                    },
+                    {
+                        "type": "row-data",
+                        "detail": {
+                            "value": "-10",
+                            "icons": [null, null, {"icon_type": "MAGIC_COIN_16"}, null],
+                            "color": "#4DA940",
+                            "font_type": "font_semi_bold"
+                        },
+                        "label": {
+                            "value": "Save using magicPoints",
+                            "spans": [
+                                {
+                                    "type": "typeface-span",
+                                    "span_info": {"end_index": -1, "span_text": "Save", "start_index": -1},
+                                    "font_type": "font_semi_bold",
+                                    "color": "#6561E8"
+                                }
+                            ],
+                            "icons": [null, null, {"icon_type": "MAGIC_COIN_16"}, null],
+                            "color": "#333333",
+                            "font_type": "font_medium"
+                        }
+                    },
+                    {
+                        "type": "row-data",
+                        "detail": {
+                            "value": "₹1 ₹0.8",
+                            "spans": [
+                                {"type": "text-decoration-span", "span_info": {"span_text": "₹1"}, "strike_through": true},
+                                {"type": "typeface-span", "span_info": {"span_text": "₹1"}, "color": "#767676"}
+                            ],
+                            "color": "#333333",
+                            "font_type": "font_semi_bold"
+                        },
+                        "label": {"value": "Platform Fee", "color": "#333333", "font_type": "font_medium"}
+                    },
+                    {
+                        "type": "row-data",
+                        "detail": {"value": "₹0.1", "color": "#333333", "font_type": "font_semi_bold"},
+                        "label": {"value": "Taxes and Charges", "color": "#333333", "font_type": "font_medium"}
+                    },
+                    {"type": "divider"},
+                    {
+                        "type": "row-data",
+                        "detail": {"value": "₹491", "color": "#333333"},
+                        "label": {"value": "To Pay", "color": "#333333", "font_type": "font_semi_bold"}
+                    }
+                ]
+            }
+        ],
+        "heading": {"value": "Payment Details"},
+        "spans": null,
+        "style": {
+            "background": {
+                "corners_radii": [24, 24, 0, 0],
+                "bg_colors": ["#F6F6FB"]
+            },
+            "padding": {"top": 24, "bottom": 24}
+        },
+        "type": "payment-details-widget",
+        "title": {
+            "style": {
+                "background": {
+                    "corners_radii": [10],
+                    "stroke_width": 0.5,
+                    "stroke_color": "#E8E8E8",
+                    "bg_colors": ["#FFFFFF"]
+                }
+            },
+            "value": "You have: 278",
+            "icons": [null, null, {"icon_type": "MAGIC_COIN_16"}, null],
+            "spans": [
+                {
+                    "type": "typeface-span",
+                    "span_info": {"end_index": -1, "span_text": "278", "start_index": -1},
+                    "font_type": "font_semi_bold"
+                }
+            ]
+        }
+    },
+    "magicpin_balance": 278,
+    "savings_highlight_widget": {"lineHeight": 0, "value": "Save ₹10", "size": 0},
+    "isWalletOnly": false,
+    "magicProAutoAdded": false,
+    "remainingPayAmount": 491,
+    "voucherInfoList": [
+        {
+            "worthPriceForSavings": 500,
+            "currency": "₹",
+            "tnc_details": {
+                "multiple_vouchers_allowed": {"displayText": "<b>Multiple Vouchers</b> are applicable on the same bill", "data_type": "Boolean", "dataType": "Boolean", "icon": "multiple_voucher.png", "value": true, "name": "multiple_vouchers_allowed", "display_text": "<b>Multiple Vouchers</b> are applicable on the same bill"},
+                "refundable": {"displayText": "a. <b>Non Refundable.</b>", "data_type": "Boolean", "dataType": "Boolean", "icon": "not_refundable.png", "value": false, "name": "refundable", "display_text": "a. <b>Non Refundable.</b>"}
+            },
+            "redemptionSteps": [{"steps": [{"sub_title": "", "title": "Go to Blinkit App.  "}, {"sub_title": "", "title": "Add items to Cart.  "}, {"sub_title": "", "title": "Select Blinkit Money as Payment Method.  "}, {"sub_title": "", "title": "Click on Claim Gift Card .  "}, {"sub_title": "", "title": "Enter the 16 digit card number and 6 digit pin and tap on claim."}]}],
+            "paymentSystemAmount": 490,
+            "voucherWorthPrice": 500,
+            "redemptionCount": 1,
+            "isGroupbuyActive": false,
+            "tnc_validity": {
+                "valid_days": {"displayText": null, "data_type": "String", "dataType": "String", "icon": "valid_all_days.png", "value": "1111111", "name": "valid_days", "display_text": null},
+                "expiry": {"displayText": "<b>Expires in 60 days </b> from date of purchase.", "data_type": "Integer", "dataType": "Integer", "icon": "expiry.png", "value": 60, "name": "expiry", "display_text": "<b>Expires in 60 days </b> from date of purchase."}
+            },
+            "singleVoucherMaxUsableBalance": 10,
+            "crossSellVoucher": false,
+            "gmv": 500,
+            "magicpinAmount": 0,
+            "walletUsablePercentage": 2,
+            "ctcDiscountDto": {"pgAmt": 0, "magicPoints": 0, "totalDiscount": 0},
+            "voucherAmount": 500,
+            "redemptionType": "VOUCHER",
+            "magicpinBalance": 278,
+            "merchantDto": {"userId": 4376387, "merchantName": "Blinkit"},
+            "howToRedeem": "a. <b>How to redeem the voucher</b>. b. Go to Blinkit App. b. Add items to Cart. b. Select Blinkit Money as Payment Method. b. Click on Claim Gift Card . b. Enter the 16 digit card number and 6 digit pin and tap on claim.",
+            "merchantName": "Grofers : PAN India",
+            "info": "Gift Voucher worth Rs. 500",
+            "tncDetails": [
+                {"displayText": "a. <b>Non Refundable.</b>", "data_type": "Boolean", "dataType": "Boolean", "icon": "not_refundable.png", "value": false, "name": "refundable", "display_text": "a. <b>Non Refundable.</b>"},
+                {"displayText": "<b>Multiple Vouchers</b> are applicable on the same bill", "data_type": "Boolean", "dataType": "Boolean", "icon": "multiple_voucher.png", "value": true, "name": "multiple_vouchers_allowed",
